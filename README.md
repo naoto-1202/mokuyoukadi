@@ -25,3 +25,17 @@ CREATE TABLE `user_relationships` (
     `created_at` DATETIME DEFAULT CURRENT_TIMESTAMP
 );
 ```
+これらのテーブルを作成し、
+```
+ALTER TABLE `users` ADD COLUMN icon_filename TEXT DEFAULT NULL;
+
+ALTER TABLE `users` ADD COLUMN introduction TEXT DEFAULT NULL;
+
+ALTER TABLE `users` ADD COLUMN cover_filename TEXT DEFAULT NULL;
+
+ALTER TABLE `users` ADD COLUMN birthday DATE DEFAULT NULL;
+```
+と入力する（一行ずつ）
+dockertestの中にpublic,nginx,Dockerfileを作成する
+中身は上のファイルの内容を入力する
+
