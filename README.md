@@ -8,6 +8,7 @@ CREATE TABLE `bbs_entries` (
     `created_at` DATETIME DEFAULT CURRENT_TIMESTAMP
 );
 ```
+```
 CREATE TABLE `users` (
     `id` INT UNSIGNED NOT NULL AUTO_INCREMENT PRIMARY KEY,
     `name` TEXT NOT NULL,
