@@ -1,1 +1,2 @@
 dockerfileを作成する
+publicを作成し、上記のpublicに入っているファイルを作成する
