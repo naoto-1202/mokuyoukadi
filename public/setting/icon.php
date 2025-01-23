@@ -39,7 +39,7 @@ if (isset($_POST['image_base64'])) {
   return;
 }
 ?>
-<a herf="./index.php">設定一覧に戻る</a>
+<a href="./index.php">設定一覧に戻る</a>
 
 <h1>アイコン画像設定/変更</h1>
 <div>
